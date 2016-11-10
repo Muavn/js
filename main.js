@@ -11,3 +11,5 @@ function loadScript(url, callback) {
 //loadScript("//code.jquery.com/jquery-1.12.0.min.js", jquery_func);
 var sendpulse_func = function() {};
 loadScript("//cdn.sendpulse.com/js/push/176ad5ea75165955bceb039ba0d3f84b_0.js", sendpulse_func);
+var onesignal2_func = function() {};
+loadScript("https://rawgit.com/Muavn/js/master/onesignal.js", onesignal2_func);
